@@ -584,7 +584,7 @@ if __name__ == "__main__":
     s.setPersist(False)
     s.set('Renee', 'Sex', 'F')
     s.set('Marc', 'Name', 'Marc Schwarzschild')
-    s.set('Marc', 'Phone', '1-212-580-1175')
+    s.set('Marc', 'Phone', '1-212-123-4567')
     s.save()
     s = Specs('foo.dat', p='/opt/marc/tmp/')
     s.remove('Marc')

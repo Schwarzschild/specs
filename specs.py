@@ -538,15 +538,15 @@ if __name__ == "__main__":
     s = Specs('foo.dat', p='/opt/marc/tmp/', persist=True)
 
     s.set('Renee', 'Name', 'Renee Koplon')
-    s.set('Renee', 'Phone', '1-917-553-1100')
+    s.set('Renee', 'Phone', '1-917-123-4567')
     s.setPersist(False)
     s.set('Renee', 'Sex', 'F')
     s.set('Marc', 'Name', 'Marc Schwarzschild')
-    s.set('Marc', 'Phone', '1-212-580-1175')
+    s.set('Marc', 'Phone', '1-212-123-4567')
     s.save()
     s.set('Marc', 'Sex', 'M')
     s.set('Gila', 'Name', 'Gila Schwarzschild')
-    s.set('Gila', 'Phone', '1-917-553-9104')
+    s.set('Gila', 'Phone', '1-917-123-4568')
     s.set('Gila', 'Sex', 'F')
 
     print 'Sorted by Name:'
